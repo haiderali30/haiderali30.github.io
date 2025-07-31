@@ -18,13 +18,11 @@
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="dropdown">
                     <a href="#projects" class="nav-link dropdown-toggle">Projects <i class="fas fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="#ai-ml" class="dropdown-link">AI & Machine Learning</a></li>
-                        <li><a href="#automation" class="dropdown-link">Automation</a></li>
-                        <li><a href="#bots" class="dropdown-link">Bot Development</a></li>
-                        <li><a href="#web" class="dropdown-link">Web Development</a></li>
                     </ul>
                 </li>
                 <li><a href="#research" class="nav-link">Research</a></li>
@@ -76,32 +74,29 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I'm a dedicated AI engineer and researcher with expertise in automation, machine learning, 
-                        and intelligent systems. My work spans across various domains including:
+                        I'm a dedicated AI engineer and researcher with expertise in machine learning, deep learning, and computer vision. My work focuses on developing intelligent systems and contributing to impactful research in AI/ML.
                     </p>
-                    <div class="expertise-grid">
-                        <div class="expertise-item">
-                            <i class="fas fa-robot"></i>
-                            <h3>AI & Machine Learning</h3>
-                            <p>Developing intelligent algorithms and neural networks for real-world applications</p>
-                        </div>
-                        <div class="expertise-item">
-                            <i class="fas fa-cogs"></i>
-                            <h3>Automation</h3>
-                            <p>Creating efficient automated systems and workflows</p>
-                        </div>
-                        <div class="expertise-item">
-                            <i class="fas fa-code"></i>
-                            <h3>Bot Development</h3>
-                            <p>Building intelligent bots for various platforms and use cases</p>
-                        </div>
-                        <div class="expertise-item">
-                            <i class="fas fa-microscope"></i>
-                            <h3>Research</h3>
-                            <p>Contributing to academic research and publishing papers</p>
-                        </div>
-                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+                <div class="skill-card"><i class="fas fa-brain"></i><span>Machine Learning</span></div>
+                <div class="skill-card"><i class="fas fa-robot"></i><span>Deep Learning</span></div>
+                <div class="skill-card"><i class="fas fa-eye"></i><span>Computer Vision</span></div>
+                <div class="skill-card"><i class="fas fa-language"></i><span>NLP</span></div>
+                <div class="skill-card"><i class="fab fa-tensorflow"></i><span>TensorFlow</span></div>
+                <div class="skill-card"><i class="fab fa-python"></i><span>PyTorch</span></div>
+                <div class="skill-card"><i class="fas fa-database"></i><span>Data Science</span></div>
+                <div class="skill-card"><i class="fas fa-lock"></i><span>Federated Learning</span></div>
+                <div class="skill-card"><i class="fas fa-user-shield"></i><span>Differential Privacy</span></div>
+                <div class="skill-card"><i class="fas fa-cloud"></i><span>Edge AI</span></div>
             </div>
         </div>
     </section>
@@ -110,7 +105,6 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
-            
             <!-- AI & ML Projects -->
             <div id="ai-ml" class="project-category">
                 <h3 class="category-title">
@@ -119,8 +113,8 @@
                 </h3>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-brain"></i>
+                        <div class="project-image" title="Image Deblurring using GAN">
+                            <i class="fas fa-image" aria-label="GAN"></i>
                         </div>
                         <div class="project-content">
                             <h4>Image Deblurring using GAN</h4>
@@ -133,14 +127,12 @@
                             </div>
                             <div class="project-links">
                                 <a href="https://github.com/haiderali30/Image-Deblurring-using-Gan" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                             </div>
                         </div>
                     </div>
-                    
                     <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-brain"></i>
+                        <div class="project-image" title="Emotion Recognition CNN">
+                            <i class="fas fa-smile" aria-label="Emotion Recognition"></i>
                         </div>
                         <div class="project-content">
                             <h4>CNN Classification for Emotion Recognition</h4>
@@ -153,14 +145,12 @@
                             </div>
                             <div class="project-links">
                                 <a href="https://github.com/haiderali30/CNN-Classification-between-HAPPY-and-SAD-people" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
                             </div>
                         </div>
                     </div>
-                    
                     <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-brain"></i>
+                        <div class="project-image" title="Potato Leaf Disease Classification">
+                            <i class="fas fa-leaf" aria-label="Potato Leaf Disease"></i>
                         </div>
                         <div class="project-content">
                             <h4>Potato Leaf Disease Classification</h4>
@@ -173,134 +163,6 @@
                             </div>
                             <div class="project-links">
                                 <a href="https://github.com/haiderali30/Potato-leaf-disease-classification" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Automation Projects -->
-            <div id="automation" class="project-category">
-                <h3 class="category-title">
-                    <i class="fas fa-cogs"></i>
-                    Automation
-                </h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <div class="project-content">
-                            <h4>Twitter Sentiment Analysis with Streamlit</h4>
-                            <p>Developed a comprehensive sentiment analysis application using Streamlit for real-time Twitter data processing. Built automated data collection, NLP processing, and interactive visualization dashboard.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Streamlit</span>
-                                <span class="tag">NLP</span>
-                                <span class="tag">Sentiment Analysis</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/haiderali30/Twitter-sentiment-analysis-with-streamlit-" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-play"></i> Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <div class="project-content">
-                            <h4>House Price Prediction System</h4>
-                            <p>Built a machine learning system to predict Lahore property prices using advanced ML algorithms. Implemented data preprocessing, feature engineering, and model training with Linear Regression and Decision Tree Regressor.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Machine Learning</span>
-                                <span class="tag">Regression</span>
-                                <span class="tag">Real Estate</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/haiderali30/House-Price-Prediction" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-play"></i> Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bot Projects -->
-            <div id="bots" class="project-category">
-                <h3 class="category-title">
-                    <i class="fas fa-robot"></i>
-                    Bot Development
-                </h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div class="project-content">
-                            <h4>AI-Powered Customer Service Bot</h4>
-                            <p>Developed intelligent customer service chatbots using natural language processing and machine learning. Integrated with multiple platforms and achieved 85% customer satisfaction rate.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">NLP</span>
-                                <span class="tag">Dialogflow</span>
-                                <span class="tag">Machine Learning</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-comments"></i> Try Bot</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div class="project-content">
-                            <h4>Automated Trading Algorithm</h4>
-                            <p>Built sophisticated trading algorithms using machine learning for market analysis, risk management, and automated trading decisions with real-time data processing.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Algorithmic Trading</span>
-                                <span class="tag">Machine Learning</span>
-                                <span class="tag">Risk Management</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-chart-line"></i> Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Web Development Projects -->
-            <div id="web" class="project-category">
-                <h3 class="category-title">
-                    <i class="fas fa-code"></i>
-                    Web Development
-                </h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="project-content">
-                            <h4>Full-Stack Web Applications</h4>
-                            <p>Developed modern web applications using React, Node.js, and various databases. Implemented responsive design and RESTful APIs.</p>
-                            <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">MongoDB</span>
-                                <span class="tag">JavaScript</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
                             </div>
                         </div>
                     </div>
@@ -330,13 +192,8 @@
                             <span class="tag">Distributed Systems</span>
                             <span class="tag">2024</span>
                         </div>
-                        <div class="research-links">
-                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
-                        </div>
                     </div>
                 </div>
-                
                 <div class="research-card">
                     <div class="research-icon">
                         <i class="fas fa-file-alt"></i>
@@ -353,13 +210,8 @@
                             <span class="tag">IoT</span>
                             <span class="tag">2024</span>
                         </div>
-                        <div class="research-links">
-                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
-                        </div>
                     </div>
                 </div>
-                
                 <div class="research-card">
                     <div class="research-icon">
                         <i class="fas fa-file-alt"></i>
@@ -375,10 +227,6 @@
                             <span class="tag">Quality Control</span>
                             <span class="tag">Manufacturing</span>
                             <span class="tag">2024</span>
-                        </div>
-                        <div class="research-links">
-                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
-                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
                         </div>
                     </div>
                 </div>
