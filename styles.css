@@ -37,11 +37,13 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--dark-bg);
-    box-shadow: 0 2px 10px var(--card-shadow);
+    background: rgba(35, 38, 58, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(95, 111, 255, 0.2);
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
@@ -66,10 +68,13 @@ body {
 .nav-link {
     text-decoration: none;
     color: var(--text-color);
-    font-weight: 500;
-    transition: color 0.3s ease;
+    font-weight: 600;
+    transition: all 0.3s ease;
     position: relative;
-    font-size: 1.05rem;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
 }
 
 .nav-link:hover {
@@ -115,17 +120,19 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--dark-bg);
-    border: 1px solid rgba(95, 111, 255, 0.2);
-    border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    min-width: 200px;
+    background: rgba(35, 38, 58, 0.98);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(95, 111, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    min-width: 220px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     transition: all 0.3s ease;
     z-index: 1000;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
+    margin-top: 0.5rem;
 }
 
 .dropdown:hover .dropdown-menu {
