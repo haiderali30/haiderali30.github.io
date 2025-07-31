@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haider Ali - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Haider Ali</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li class="dropdown">
+                    <a href="#projects" class="nav-link dropdown-toggle">Projects <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#ai-ml" class="dropdown-link">AI & Machine Learning</a></li>
+                        <li><a href="#automation" class="dropdown-link">Automation</a></li>
+                        <li><a href="#bots" class="dropdown-link">Bot Development</a></li>
+                        <li><a href="#web" class="dropdown-link">Web Development</a></li>
+                    </ul>
+                </li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Haider Ali</span></h1>
+                <p class="hero-subtitle">AI Engineer | Automation Specialist | Researcher</p>
+                <p class="hero-description">
+                    Passionate about creating intelligent solutions through AI, automation, and innovative technology. 
+                    Specializing in bots, machine learning, and cutting-edge research.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="CV_Haider_Ali.pdf" class="btn btn-secondary" target="_blank">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">Automation</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Research</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated AI engineer and researcher with expertise in automation, machine learning, 
+                        and intelligent systems. My work spans across various domains including:
+                    </p>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <i class="fas fa-robot"></i>
+                            <h3>AI & Machine Learning</h3>
+                            <p>Developing intelligent algorithms and neural networks for real-world applications</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Automation</h3>
+                            <p>Creating efficient automated systems and workflows</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-code"></i>
+                            <h3>Bot Development</h3>
+                            <p>Building intelligent bots for various platforms and use cases</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-microscope"></i>
+                            <h3>Research</h3>
+                            <p>Contributing to academic research and publishing papers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            
+            <!-- AI & ML Projects -->
+            <div id="ai-ml" class="project-category">
+                <h3 class="category-title">
+                    <i class="fas fa-brain"></i>
+                    AI & Machine Learning
+                </h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Image Deblurring using GAN</h4>
+                            <p>Implemented a modified DeblurGAN-v2 architecture using TensorFlow for image deblurring. Developed advanced GAN-based approach for restoring sharp images from blurred inputs with improved quality and performance.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">GAN</span>
+                                <span class="tag">Computer Vision</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/haiderali30/Image-Deblurring-using-Gan" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>CNN Classification for Emotion Recognition</h4>
+                            <p>Developed a Convolutional Neural Network (CNN) system to distinguish between facial expressions of happiness and sadness with high accuracy. Implemented advanced image processing and deep learning techniques for emotion recognition technology.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">CNN</span>
+                                <span class="tag">Computer Vision</span>
+                                <span class="tag">Emotion Recognition</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/haiderali30/CNN-Classification-between-HAPPY-and-SAD-people" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Potato Leaf Disease Classification</h4>
+                            <p>Built a CNN-based system for classifying potato leaf diseases to enhance early detection and management in agriculture. Implemented data preprocessing, model training, and evaluation for agricultural disease detection.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">CNN</span>
+                                <span class="tag">Agriculture</span>
+                                <span class="tag">Disease Detection</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/haiderali30/Potato-leaf-disease-classification" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automation Projects -->
+            <div id="automation" class="project-category">
+                <h3 class="category-title">
+                    <i class="fas fa-cogs"></i>
+                    Automation
+                </h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Twitter Sentiment Analysis with Streamlit</h4>
+                            <p>Developed a comprehensive sentiment analysis application using Streamlit for real-time Twitter data processing. Built automated data collection, NLP processing, and interactive visualization dashboard.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">Sentiment Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/haiderali30/Twitter-sentiment-analysis-with-streamlit-" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-play"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>House Price Prediction System</h4>
+                            <p>Built a machine learning system to predict Lahore property prices using advanced ML algorithms. Implemented data preprocessing, feature engineering, and model training with Linear Regression and Decision Tree Regressor.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Regression</span>
+                                <span class="tag">Real Estate</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/haiderali30/House-Price-Prediction" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-play"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bot Projects -->
+            <div id="bots" class="project-category">
+                <h3 class="category-title">
+                    <i class="fas fa-robot"></i>
+                    Bot Development
+                </h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>AI-Powered Customer Service Bot</h4>
+                            <p>Developed intelligent customer service chatbots using natural language processing and machine learning. Integrated with multiple platforms and achieved 85% customer satisfaction rate.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">Dialogflow</span>
+                                <span class="tag">Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-comments"></i> Try Bot</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Automated Trading Algorithm</h4>
+                            <p>Built sophisticated trading algorithms using machine learning for market analysis, risk management, and automated trading decisions with real-time data processing.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Algorithmic Trading</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Risk Management</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-chart-line"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development Projects -->
+            <div id="web" class="project-category">
+                <h3 class="category-title">
+                    <i class="fas fa-code"></i>
+                    Web Development
+                </h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="project-content">
+                            <h4>Full-Stack Web Applications</h4>
+                            <p>Developed modern web applications using React, Node.js, and various databases. Implemented responsive design and RESTful APIs.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research Papers</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="research-content">
+                        <h4>Privacy-Preserving Machine Learning in Distributed Systems</h4>
+                        <p class="research-authors">Haider Ali, et al.</p>
+                        <p class="research-abstract">
+                            This research explores federated learning and differential privacy techniques for secure machine learning in distributed environments. The study presents novel approaches for maintaining data privacy while enabling collaborative model training across multiple parties.
+                        </p>
+                        <div class="research-tags">
+                            <span class="tag">Federated Learning</span>
+                            <span class="tag">Differential Privacy</span>
+                            <span class="tag">Distributed Systems</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <div class="research-links">
+                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="research-content">
+                        <h4>Edge AI Optimization for Resource-Constrained Devices</h4>
+                        <p class="research-authors">Haider Ali, et al.</p>
+                        <p class="research-abstract">
+                            Investigation of model compression and optimization techniques for deploying AI models on edge devices. The research presents novel methodologies for achieving real-time inference while maintaining model accuracy on resource-constrained hardware.
+                        </p>
+                        <div class="research-tags">
+                            <span class="tag">Edge AI</span>
+                            <span class="tag">Model Compression</span>
+                            <span class="tag">IoT</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <div class="research-links">
+                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="research-content">
+                        <h4>Computer Vision for Quality Control in Manufacturing</h4>
+                        <p class="research-authors">Haider Ali, et al.</p>
+                        <p class="research-abstract">
+                            Study of computer vision applications in manufacturing quality control, focusing on defect detection, process monitoring, and automated inspection systems. The research introduces novel CNN architectures optimized for real-time industrial applications.
+                        </p>
+                        <div class="research-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Quality Control</span>
+                            <span class="tag">Manufacturing</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <div class="research-links">
+                            <a href="#" class="research-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>haiderali31344@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/haiderali11" target="_blank">linkedin.com/in/haiderali11</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/haiderali30" target="_blank">github.com/haiderali30</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Haider Ali. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
